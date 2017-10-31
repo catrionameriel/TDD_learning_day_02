@@ -10,6 +10,10 @@
 #   return argument_1 - argument_2
 # end
 
-def multiply(argument_1, argument_2)
-  return argument_1 * argument_2
+# def multiply(argument_1, argument_2)
+#   return argument_1 * argument_2
+# end
+
+def divide(argument_1, argument_2)
+  return argument_1 / argument_2
 end
