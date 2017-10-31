@@ -91,3 +91,7 @@
 # def volume_of_cube(cube_side_length)
 #   return cube_side_length ** 3
 # end
+
+def volume_of_sphere(sphere_radius)
+  return ((4 * Math::PI * (sphere_radius ** 3)) / 3).round(2)
+end
