@@ -18,6 +18,10 @@
 #   return argument_1 / argument_2
 # end
 
-def length_of_string(argument_1)
-  return argument_1.length
+# def length_of_string(argument_1)
+#   return argument_1.length
+# end
+
+def join_string(argument_1, argument_2)
+  return argument_1 + argument_2
 end
