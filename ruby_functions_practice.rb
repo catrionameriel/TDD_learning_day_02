@@ -22,6 +22,10 @@
 #   return argument_1.length
 # end
 
-def join_string(argument_1, argument_2)
-  return argument_1 + argument_2
+# def join_string(argument_1, argument_2)
+#   return argument_1 + argument_2
+# end
+
+def add_string_as_number(argument_1, argument_2)
+  return argument_1.to_i + argument_2.to_i
 end
