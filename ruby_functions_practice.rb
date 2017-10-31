@@ -14,6 +14,10 @@
 #   return argument_1 * argument_2
 # end
 
-def divide(argument_1, argument_2)
-  return argument_1 / argument_2
+# def divide(argument_1, argument_2)
+#   return argument_1 / argument_2
+# end
+
+def length_of_string(argument_1)
+  return argument_1.length
 end
