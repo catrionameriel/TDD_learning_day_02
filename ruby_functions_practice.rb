@@ -59,31 +59,35 @@
 #   end
 # end
 
-def number_to_short_month_name(argument_1)
-  case
-      when argument_1 == 1
-      return "Jan"
-      when argument_1 == 2
-      return "Feb"
-      when argument_1 == 3
-        return "Mar"
-      when argument_1 == 4
-        return "Apr"
-      when argument_1 == 5
-        return "May"
-      when argument_1 == 6
-        return "June"
-      when argument_1 == 7
-        return "July"
-      when argument_1 == 8
-        return "Aug"
-      when argument_1 == 9
-        return "Sep"
-      when argument_1 == 10
-        return "Oct"
-      when argument_1 == 11
-        return "Nov"
-      when argument_1 == 12
-        return "Dec"
-    end
+# def number_to_short_month_name(argument_1)
+#   case
+#       when argument_1 == 1
+#       return "Jan"
+#       when argument_1 == 2
+#       return "Feb"
+#       when argument_1 == 3
+#         return "Mar"
+#       when argument_1 == 4
+#         return "Apr"
+#       when argument_1 == 5
+#         return "May"
+#       when argument_1 == 6
+#         return "June"
+#       when argument_1 == 7
+#         return "July"
+#       when argument_1 == 8
+#         return "Aug"
+#       when argument_1 == 9
+#         return "Sep"
+#       when argument_1 == 10
+#         return "Oct"
+#       when argument_1 == 11
+#         return "Nov"
+#       when argument_1 == 12
+#         return "Dec"
+#     end
+# end
+
+def volume_of_cube(cube_side_length)
+  return cube_side_length ** 3
 end
